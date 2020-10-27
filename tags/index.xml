@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tuyen&#39;s Blog</title>
+    <link>https://ktuyends.github.io/tags/</link>
+    <description>Recent content in Tags on Tuyen&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My diary</title>
+      <link>https://ktuyends.github.io/tags/my-diary/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/my-diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://ktuyends.github.io/tags/sql/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R for Data Science</title>
+      <link>https://ktuyends.github.io/tags/r-for-data-science/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/r-for-data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Analytics</title>
+      <link>https://ktuyends.github.io/tags/predictive-analytics/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/predictive-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Excel</title>
+      <link>https://ktuyends.github.io/tags/excel/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power BI</title>
+      <link>https://ktuyends.github.io/tags/power-bi/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/power-bi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny and Reporting</title>
+      <link>https://ktuyends.github.io/tags/shiny-and-reporting/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/shiny-and-reporting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Foundation of DS</title>
+      <link>https://ktuyends.github.io/tags/foundation-of-ds/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/foundation-of-ds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comment Line</title>
+      <link>https://ktuyends.github.io/tags/comment-line/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/comment-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://ktuyends.github.io/tags/blog/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mini Project</title>
+      <link>https://ktuyends.github.io/tags/mini-project/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/mini-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://ktuyends.github.io/tags/tutorial/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archive</title>
+      <link>https://ktuyends.github.io/tags/archive/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://ktuyends.github.io/tags/test/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

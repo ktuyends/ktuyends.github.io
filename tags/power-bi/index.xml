@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power BI on Tuyen&#39;s Blog</title>
+    <link>https://ktuyends.github.io/tags/power-bi/</link>
+    <description>Recent content in Power BI on Tuyen&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power BI Tutorial</title>
+      <link>https://ktuyends.github.io/2020/12/power-bi-tutorial/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2020/12/power-bi-tutorial/</guid>
+      <description>&lt;p style = &#34;font-family:Roboto; font-weight: 400&#34;&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

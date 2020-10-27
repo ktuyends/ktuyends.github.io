@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Tuyen&#39;s Blog</title>
+    <link>https://ktuyends.github.io/categories/</link>
+    <description>Recent content in Categories on Tuyen&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Diary</title>
+      <link>https://ktuyends.github.io/categories/my-diary/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/my-diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge</title>
+      <link>https://ktuyends.github.io/categories/knowledge/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://ktuyends.github.io/categories/blog/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mini Projects</title>
+      <link>https://ktuyends.github.io/categories/mini-projects/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/mini-projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://ktuyends.github.io/categories/tutorial/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://ktuyends.github.io/categories/archive/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://ktuyends.github.io/categories/test/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://ktuyends.github.io/categories/projects/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

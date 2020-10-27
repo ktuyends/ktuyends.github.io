@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Tuyen&#39;s Blog</title>
+    <link>https://ktuyends.github.io/page/</link>
+    <description>Recent content in Pages on Tuyen&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://ktuyends.github.io/page/02-curriculum-vitae/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/page/02-curriculum-vitae/</guid>
+      <description> Thực ra, cũng muốn viết chút gì đó cho trang này. Nhưng mà, bắt đầu làm lại, giống như xé bỏ một tờ giấy đầy chữ, viết lại một tờ giấy khác, sống một cuộc sống khác vậy. Nên có lẽ, một ngày nào đó mình sẽ quay lại và viết tiếp trang này.
+Contact  Phone: 0345 032 885 Email: ktuyen.ds@gmail.com Github: https://github.com/ktuyends Facebook: https://www.facebook.com/ktuyends  </description>
+    </item>
+    
+    <item>
+      <title>Mini Projects</title>
+      <link>https://ktuyends.github.io/page/01-projects/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/page/01-projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

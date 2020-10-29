@@ -259,6 +259,147 @@
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
               
+
+<p>Trong post này, mình tổng hợp lại một số phần mềm cơ bản nên cài cho Ubuntu và một số phần mềm khác như MySQL, Rstudio, Anaconda để làm việc với Data.</p>
+
+<h4 id="1-một-số-phần-mềm-cơ-bản">1. Một số phần mềm cơ bản:</h4>
+
+<ul>
+<li>Phân vùng ổ cứng: <code>sudo apt install gparted</code></li>
+<li>Giải nén: <code>sudo apt install p7zip-full p7zip-rar</code></li>
+<li>Media codecs: <code>sudo apt install ubuntu-restricted-extras</code></li>
+<li>Text editor: Sublime text, Visual Studio Code</li>
+
+<li><p>Nghe nhạc: Spotify, Sayonaram, VLC</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt-add-repository ppa:lucioc/sayonara
+$ sudo apt-get update
+$ sudo apt-get install sayonara</code></pre></div></li>
+
+<li><p>Snap:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt update
+$ sudo apt-get install snapd
+$ snap find &lt;search_text&gt;
+$ sudo snap install &lt;package&gt;
+$ snap list
+$ sudo snap remove &lt;package&gt;<span style="color:#e6db74">`</span></code></pre></div></li>
+
+<li><p>Đọc file PDF: Foxit Reader</p></li>
+
+<li><p>Đọc file Epub: Calibre</p></li>
+
+<li><p>Ghi chú: Typora</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+$ sudo add-apt-repository <span style="color:#e6db74">&#39;deb https://typora.io/linux ./&#39;</span>
+$ sudo apt-get update
+$ sudo apt-get install typora</code></pre></div></li>
+
+<li><p>Paint: Krita, Pinta</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo add-apt-repository ppa:kritalime/ppa
+$ sudo apt-get update
+$ sudo apt-get install krita</code></pre></div></li>
+
+<li><p>Image Editors: GIMP, Inkscape</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+$ sudo apt-get update
+$ sudo apt-get install gimp</code></pre></div></li>
+
+<li><p>Photography: DigiKam, Darktable</p></li>
+
+<li><p>Video editors: Kdenlive, Shotcut</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo snap install shotcut --classic</code></pre></div></li>
+
+<li><p>Image and video converter: Xnconvert, Handbrake</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ wget https://download.xnview.com/XnConvert-linux-x64.deb
+$ sudo dpkg -i XnConvert-linux-x64.deb</code></pre></div></li>
+
+<li><p>Screenshot and screen recording tools: Shutter, Kazam</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo add-apt-repository ppa:linuxuprising/shutter
+$ sudo apt-get update
+$ sudo apt install shutter
+$ sudo apt install gnome-web-photo</code></pre></div></li>
+
+<li><p>Latex</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get install texlive-full</code></pre></div></li>
+
+<li><p>Office: <a href="https://www.office.com/">https://www.office.com/</a>, OnlyOffice</p></li>
+
+<li><p>Firefox Extension: Flash Video Download</p></li>
+
+<li><p>Chrome Extension: AdGuard AdBlocker</p></li>
+
+<li><p>Download tool: uget, aria2</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt install uget aria2</code></pre></div></li>
+
+<li><p>Dọn rác: Bleachbit</p></li>
+
+<li><p>Một số phần mềm khác: Mendeley, Teamview, Dropbox, Skype</p></li>
+</ul>
+
+<h4 id="2-install-hugo-git">2. Install Hugo &amp; Git</h4>
+
+<ul>
+<li><p>Cài đặt Git:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt-get update
+$ sudo apt-get install git
+$ git --version</code></pre></div></li>
+
+<li><p>Cài đặt Hugo: Lên Github, tải file <code>.deb</code> về cài đặt như bình thường.</p></li>
+
+<li><p>Cài đặt Nodejs:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+$ sudo apt-get install -y nodejs</code></pre></div></li>
+
+<li><p>Cài đặt Git GUI: Gitkraken, Pycharm</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo snap install pycharm-community --classic</code></pre></div></li>
+</ul>
+
+<h4 id="3-install-r-rstudio">3. Install R &amp; Rstudio</h4>
+
+<ul>
+<li><p>Cài đặt R:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt install apt-transport-https software-properties-common
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+$ sudo add-apt-repository <span style="color:#e6db74">&#39;deb https://cloud.r-project.org/bin/linux/ubuntu disco-cran35/&#39;</span>
+
+$ sudo apt update
+$ sudo apt install gdebi libxml2-dev libssl-dev libcurl4-openssl-dev libopenblas-dev r-base r-base-dev</code></pre></div></li>
+
+<li><p>Cài đặt Rstudio:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd ~/Downloads
+$ wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5001-amd64.deb
+$ sudo gdebi rstudio-1.2.5001-amd64.deb</code></pre></div></li>
+
+<li><p>Cài đặt JAGS:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt-get install jags</code></pre></div></li>
+</ul>
+
+<h4 id="4-install-mysql">4. Install MySQL</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt-get install mysql-server
+$ sudo apt install mysql-workbench</code></pre></div>
+<h4 id="5-install-anaconda">5. Install Anaconda</h4>
+
+<p>Đầu tiên, các bạn vào trang Web của Anaconda và tải file cài đặt Anaconda về. Sau đó chạy lệnh sau để cài đặt:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ bash filename.sh</code></pre></div>
+<ul>
+<li><p>Tạo Anaconda Navigator Icon</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo nano /usr/share/applications/Anaconda.desktop</code></pre></div></li>
+</ul>
+
+<p>Điền nội dung sau vào trong file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>Desktop Entry<span style="color:#f92672">]</span>
+Version<span style="color:#f92672">=</span>1.0
+Type<span style="color:#f92672">=</span>Application
+Name<span style="color:#f92672">=</span>Anaconda
+GenericName<span style="color:#f92672">=</span>Anaconda
+Exec<span style="color:#f92672">=</span>bash -c <span style="color:#e6db74">&#39;export PATH=&#34;/home/ktuyends/anaconda3/bin:$PATH&#34; &amp;&amp; /home/ktuyends/anaconda3/bin/anaconda-navigator&#39;</span>
+Icon<span style="color:#f92672">=</span>/home/ktuyends/anaconda3/lib/python3.7/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
+Terminal<span style="color:#f92672">=</span>false
+StartupNotify<span style="color:#f92672">=</span>true
+MimeType<span style="color:#f92672">=</span>text/x-python;</code></pre></div>
+<p>Cuối cùng sử dụng các phím tắt sau để hoàn tất: <code>Ctrl + O</code> -&gt; <code>Enter</code> -&gt; <code>Ctrl + X</code>.</p>
+
+<hr />
+
               
             </div>
           </div>

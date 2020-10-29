@@ -257,7 +257,7 @@ Contact  Phone: 0345 032 885 Email: ktuyen.ds@gmail.com Github: https://github.c
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/2016/04/working-with-git-remotes/</guid>
-      <description>&lt;p style = &#34;font-family:Roboto; font-weight: 400&#34;&gt;</description>
+      <description>Git remote thường được sử dụng để chia sẻ source code giữa các thành viên trong cùng một dự án, về cơ bản quy trình làm việc với remote sẽ như sau&amp;hellip;</description>
     </item>
     
     <item>
@@ -266,16 +266,16 @@ Contact  Phone: 0345 032 885 Email: ktuyen.ds@gmail.com Github: https://github.c
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/2016/04/basic-git/</guid>
-      <description>&lt;p style = &#34;font-family:Roboto; font-weight: 400&#34;&gt;</description>
+      <description>Với quy trình Gitflow đã trình bày trong bài trước, về cơ bản tôi sẽ chia quá trình học Git làm hai phần. Phần một, cách sử dụng Git để quản lý code ở Local. Phần hai&amp;hellip;</description>
     </item>
     
     <item>
-      <title>Intro to Git</title>
+      <title>Introduction to Git</title>
       <link>https://ktuyends.github.io/2016/04/intro-to-git/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/2016/04/intro-to-git/</guid>
-      <description>&lt;p style = &#34;font-family:Roboto; font-weight: 400&#34;&gt;</description>
+      <description>Version control là một công cụ mạnh mẽ giúp chúng ta theo dõi, quản lý các phiên bản của code, phục hồi khi code bị lỗi,&amp;hellip;Trong bài này, tôi viết về Git, một công cụ version control phổ biến nhất.</description>
     </item>
     
     <item>

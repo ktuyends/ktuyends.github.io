@@ -259,6 +259,122 @@
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
               
+
+<h2 id="1-làm-việc-với-remote">1. Làm việc với Remote</h2>
+
+<p>Git remote thường được sử dụng để chia sẻ source code giữa các thành viên trong cùng một dự án, về cơ bản quy trình làm việc với remote sẽ như sau:</p>
+
+<ul>
+<li>Git fetch: Lấy code từ trên server về, để vào một branch có dạng remote/branch.</li>
+<li>Git merge: Gộp code từ remote/branch vào master branch.</li>
+<li>Git add and git commit nếu xảy ra conflict.</li>
+<li>Git push <remote_name> <branch_name>: Đẩy code lên server.</li>
+</ul>
+
+<p><strong>Thêm/Xóa một remote:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Liệt kê danh sách remote</span>
+$ git remote
+$ git remote -v</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Thêm một remote</span>
+$ git remote add &lt;remote_name&gt; &lt;url&gt;</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Xem thông tin remote</span>
+$ git remote show &lt;remote_name&gt;</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Đổi tên remote</span>
+$ git remote rename &lt;old_name&gt; &lt;new_name&gt;</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Xóa một remote</span>
+$ git remote rm &lt;remote_name&gt;</code></pre></div>
+<p><strong>Làm việc với remote:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Push</span>
+$ git push origin master
+
+$ <span style="color:#75715e"># Fulll push</span>
+$ git push origin local_branch:remote_branch
+
+$ <span style="color:#75715e"># download source code từ remote</span>
+$ <span style="color:#75715e"># Git fetch sẽ lấy tất cả các branch trên remote về local </span>
+$ git fetch remote_name
+
+$ <span style="color:#75715e"># Đồng bộ local và remote</span>
+$ git checkout master
+$ git merge origin/master</code></pre></div>
+<p><strong>Làm việc với Remote Branch:</strong></p>
+
+<p>Remote branch là các tham chiếu đến trạng thái của các branch tại remote repo. Chúng là các nhánh nội bộ mà chúng ta không thể thực hiện di chuyển chúng.</p>
+
+<p>Remote branch có dạng:  <code>(remote)/(branch)</code>.</p>
+
+<p>Để dễ hình dung, ta xem xét ví dụ dưới đây:</p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-07-lam-viec-voi-remote/git50.bmp"></p>
+
+<p>Khi chúng ta thực hiện clone từ server về local, Git sẽ đặt một con trỏ, trỏ tới nhánh master của origin và đặt tên là <code>origin/master</code>. Chúng ta không thể di chuyển nhánh này. Đồng thời Git cũng tạo riêng cho chúng ta một nhánh master – local branch để chúng ta làm việc.</p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-07-lam-viec-voi-remote/git51.bmp"></p>
+
+<p>Bây giờ, giả sử trên server một vài người đã đẩy các commit mới lên, nó sẽ trông như hình trên.</p>
+
+<p>Đồng thời ở dưới local, chúng ta cũng thực hiện một số commit mới trên nhánh master. Tuy nhiên nhánh <code>origin/master</code> thì không di chuyển cho đến khi ta cập nhật từ server về:</p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-07-lam-viec-voi-remote/git52.bmp"></p>
+
+<p>Tiếp theo chúng ta kéo những thay đổi trên server về, kết quả sẽ như sau:</p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-07-lam-viec-voi-remote/git53.bmp"></p>
+
+<p><strong>Push các nhánh lên remote:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Ví dụ:</span>
+$ <span style="color:#75715e"># Hãy sử dụng nhánh local serverfix của tôi và đẩy nó lên để cập nhật nhánh </span>
+$ <span style="color:#75715e"># remote serverfix </span>
+$ git push origin serverfix
+
+$ <span style="color:#75715e"># Đẩy nhánh local serverfix vào nhánh remote awesomebranch</span>
+$ git push origin serverfix:awesomebranch</code></pre></div>
+<p><strong>Cập nhật nội dung từ nhánh remote:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Giả sử ta fetch từ remote về</span>
+$ git fetch origin
+remote: Counting objects: 20, <span style="color:#66d9ef">done</span>.
+remote: Compressing objects: 100% <span style="color:#f92672">(</span>14/14<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+remote: Total <span style="color:#ae81ff">15</span> <span style="color:#f92672">(</span>delta 5<span style="color:#f92672">)</span>, reused <span style="color:#ae81ff">0</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>
+Unpacking objects: 100% <span style="color:#f92672">(</span>15/15<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+From git@github.com:schacon/simplegit
+ * <span style="color:#f92672">[</span>new branch<span style="color:#f92672">]</span>      serverfix    -&gt; origin/serverfix</code></pre></div>
+<p>Khi ta thực hiện fetch từ remote về, Git không tạo ra nhánh local serverfix mới mà chỉ tạo ra một nhánh tham chiếu đến nhánh serverfix trên remote. Chúng ta không thể chỉnh sửa nhánh <code>origin/serverfix</code> này.</p>
+
+<p>Để tích hợp nhánh remote vào nhánh hiện tại:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git merger origin/serverfix</code></pre></div>
+<p>Nếu chúng ta muốn có một nhánh serverfix riêng để có thể làm việc với nó, ta có thể tách serverfix ra khỏi nhánh remote bằng cách:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git checkout -b serverfix origin/serverfix </code></pre></div>
+<p>Cách này sẽ tạo ra nhánh local serverfix cùng vị trí với nhánh origin/serverfix.</p>
+
+<p><strong>Xóa nhánh trên remote:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Xóa nhánh serverfix trên remote</span>
+$ git push origin :serverfix</code></pre></div>
+<h2 id="2-làm-việc-với-tag">2. Làm việc với Tag</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Tạo tag với commit hiện tại</span>
+$ git tag -a V1.1 -m <span style="color:#e6db74">&#34;message tag&#34;</span>
+
+$ <span style="color:#75715e"># Tạo tag với một commit cụ thể</span>
+$ git tag -a V1.1 &lt;hash commit&gt; -m <span style="color:#e6db74">&#34;message tag&#34;</span></code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Xem thông tin tag</span>
+$ git tag
+$ git show V1.1</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Push tag</span>
+$ git push origin V1.1
+
+$ <span style="color:#75715e"># Day tat ca cac tag</span>
+$ git push origin --tags</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Create branch from a tag</span>
+$ git checkout -b &lt;branch_name&gt; &lt;tag&gt; </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Fetch tag</span>
+$ git fetch
+$ git fetch --tags origin</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Delete a local tag</span>
+$ git tag -d &lt;tag_name&gt;
+
+$ <span style="color:#75715e"># Delete all local tags.</span>
+$ git tag -d <span style="color:#66d9ef">$(</span>git tag -l<span style="color:#66d9ef">)</span></code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#75715e"># Delete all remote tags.</span>
+$ git push origin --delete <span style="color:#66d9ef">$(</span>git tag -l<span style="color:#66d9ef">)</span> </code></pre></div>
+<h2 id="3-summary">3. Summary</h2>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/7lcUQLQEHKA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<hr />
+
               
             </div>
           </div>

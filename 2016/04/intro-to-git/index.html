@@ -13,8 +13,8 @@
 
 <meta property="og:description" content="Tutorial">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Intro to Git">
-<meta name="twitter:title" content="Intro to Git">
+<meta property="og:title" content="Introduction to Git">
+<meta name="twitter:title" content="Introduction to Git">
 <meta property="og:url" content="https://ktuyends.github.io/2016/04/intro-to-git/">
 <meta property="twitter:url" content="https://ktuyends.github.io/2016/04/intro-to-git/">
 <meta property="og:site_name" content="Tuyen&#39;s Blog">
@@ -60,7 +60,7 @@
   <meta property="twitter:image" content="https://www.gravatar.com/avatar/915d82227fe59759b8ac876fd092b2b5?s=640">
 
 
-    <title>Intro to Git</title>
+    <title>Introduction to Git</title>
 
     <link rel="icon" href="https://ktuyends.github.io/favicon.png">
     
@@ -231,7 +231,7 @@
             <div class="post-header main-content-wrap text-center">
   
     <h1 class="post-title" itemprop="headline">
-      Intro to Git
+      Introduction to Git
     </h1>
   
   
@@ -259,6 +259,135 @@
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
               
+
+<p>Version control là một công cụ mạnh mẽ giúp chúng ta theo dõi, quản lý các phiên bản của code, phục hồi khi code bị lỗi,&hellip;Trong bài này, tôi viết về Git, một công cụ version control phổ biến nhất.</p>
+
+<h2 id="1-giới-thiệu">1. Giới thiệu</h2>
+
+<p>Git là một hệ thống quản lý phiên bản, được sử dụng để quản lý source code. Trên Git, các phiên bản – trạng thái được lưu lại và ta có thể đưa source code về trạng thái – phiên bản cũ khi cần thiết.</p>
+
+<p>Chuỗi bài viết này tôi không đi trình bày chi tiết về Git, tôi chỉ ghi lại một số câu lệnh hay dùng, vì cũng không biết khi nào tôi mới dùng đến nó. Các vấn đề như cài đặt Git, đăng ký tài khoản Github như thế nào có thể dễ dàng tìm kiếm trên Google và Youtube với đầy đủ các hướng dẫn chi tiết.</p>
+
+<h2 id="2-cài-đặt-git">2. Cài đặt Git</h2>
+
+<p>Để cài đặt Git các bạn vào trang sau và download phiên bản phù hợp với hệ điều hành của mình về rồi sau đó tiến hành cài đặt: <a href="https://git-scm.com/download/win">Git SCM</a></p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git1.bmp" style="width: 513px;"></p>
+
+<p><strong>Cài đặt:</strong></p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git2.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git3.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git4.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git5.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git6.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git7.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git8.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git9.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git10.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git11.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git12.bmp"></p>
+
+<p>P/s: Các hình ảnh trong note này tôi lấy trên trang: <a href="https://o7planning.org">https://o7planning.org</a></p>
+
+<h2 id="3-command-line-cơ-bản">3. Command line cơ bản</h2>
+
+<p>Khi làm việc với Git, ta thường thực hiện các thao tác sử dụng câu lệnh trên Git bash (window) hoặc terminal (linux). Mặc dù cũng có các GUI hỗ trợ việc thực hiện Git nhưng tài liệu này không đi về việc sử dụng GUI. Để làm việc với Git bash, terminal ta cần biết một số câu lệnh thao tác với folders và files trên máy tính.</p>
+
+<p><em>Di chuyển đến các thư mục ta sử dụng lệnh <code>cd</code>:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd
+$ cd path
+$ cd folder_name</code></pre></div>
+<p>Trong trường hợp tên thư mục có dấu cách, ta đặt <code>path</code> và <code>folder_name</code> trong dấu ngoặc kép: <code>&quot;path&quot;</code>, <code>&quot;folder_name&quot;</code>.</p>
+
+<p><em>Để di chuyển trở lại vị trí cũ ta sử dụng:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd -</code></pre></div>
+<p><em>Để di chuyển lên thư mục chứa thư mục hiện tại ta sử dụng:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd ..</code></pre></div>
+<p><em>Show các file and folders ở thư mục hiện hành với <code>ls</code>:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ ls
+$ ls -1</code></pre></div>
+<p><em>Tạo một folders mới với <code>mkdir</code>:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mkdir folder_name</code></pre></div>
+<p><em>Tạo một file với <code>touch</code> and <code>echo</code>:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ touch NewFile_1.txt NewFile_2.txt ...NewFile_n.txt
+$ echo <span style="color:#e6db74">&#34;Text add to file&#34;</span> &gt;&gt; NewFile_1.txt</code></pre></div>
+<p>Câu lệnh trên tạo ra các file và ghi nội dung vào các file đó, chúng ta có thể sử dụng <code>path/file_name.txt</code> thay vì <code>file_name.txt</code>. Lệnh <code>echo</code> sẽ tạo ra file mới và ghi nội dụng vào file mới nếu file đó chưa tồn tại.</p>
+
+<p><em>Xóa files:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ rm -i <span style="color:#e6db74">&#34;file_name&#34;</span></code></pre></div>
+<p><em>Xóa các thư mục rỗng:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ rmdir <span style="color:#e6db74">&#34;folder_name&#34;</span></code></pre></div>
+<p><em>Xóa các thư mục không rỗng:</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ rm -rf <span style="color:#e6db74">&#34;folder_name&#34;</span></code></pre></div>
+<h2 id="4-git-configure">4. Git Configure</h2>
+
+<p>Sau khi cài đặt Git, bước đầu tiên chúng ta cần làm là cài đặt Git config. Sử dụng Git-bash hoặc terminal với các lệnh sau để cài đặt Git config. Git config chính là thông tin khi chúng ta push source code lên trên remote. Còn push là gì, remote là gì tôi sẽ giải thích sau.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git config --global user.name &lt;”User Name”&gt; 
+$ git config --global user.email &lt;UserEmailAddress&gt;
+$ git config --list</code></pre></div>
+<h2 id="5-đăng-ký-tài-khoản-github">5. Đăng ký tài khoản Github</h2>
+
+<p>Đầu tiên các bạn vào trang web của <a href="https://github.com/">Github</a> sau đó đăng ký cho tôi một tài khoản. Cách đăng ký thì như các trang khác thôi, không có vấn đề gì khó khăn cả.</p>
+
+<h2 id="6-cài-đặt-github-desktop">6. Cài đặt Github Desktop</h2>
+
+<p>Đầu tiên, các bạn cần download <a href="https://desktop.github.com/">Github Desktop</a>.</p>
+
+<p>Sau khi download xong các bạn cài đặt như phần mềm bình thường thôi. Hình như Github desktop yêu cầu hệ điều hành 64 bit thì phải. Máy tôi cùi quá không cài đặt được Github desktop nên tôi chủ yếu xài command lines.</p>
+
+<p>Để bắt đầu với Github desktop các bạn khởi động chương trình và chọn Sign to Github.com</p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git13.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git14.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git15.bmp"></p>
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-02-gioi-thieu-git-va-github/git16.bmp"></p>
+
+<p>OK. Vậy là bạn đã cài đặt và đăng nhập xong vào Github desktop rồi đó.</p>
+
+<h2 id="7-giới-thiệu-gitflow">7. Giới thiệu Gitflow</h2>
+
+<p>Trước khi nói về quy trình làm việc, tôi muốn các bạn hiểu sơ sơ một số khái niệm cơ bản gồm Remote, local, branch, branch master. Còn về chi tiết, tôi sẽ giải thích ở các bài sau.</p>
+
+<p>Tôi gọi local là nơi lưu trữ các phiên bản của code trên máy tính của tôi. Remote là một nơi để để lưu trữ code của tất cả mọi người trong một team với nhau. Ví dụ mỗi người trong team lập trình một chức năng nào đó. Sau đó gửi code lên remote để hợp nhất các chức năng của tất cả mọi người lại với nhau.  Nếu bạn vẫn thấy khó hiểu thì cứ tạm hiểu nó giống như google drive ý, là nơi tôi up tài liệu, up code lên.</p>
+
+<p>Khái niệm tiếp theo là branch master. Master ta hiểu đơn giản là một nhánh – branch lưu trữ code hay còn gọi là nhánh chính. Khi chúng ta muốn tạo ra các tính năng mới, ta làm việc ở một branch khác. Sau khi check, test ổn định rồi ta đem gộp vào nhánh chính.</p>
+
+<p>Nếu các bạn thấy khó hiểu về nhánh - branch, các bạn cứ tưởng tượng giả sử ta cần làm một cái bàn. Ta gọi branch master là nơi ta lắp ráp cái bàn. Còn branch là nơi ta làm các bộ phận của cái bàn như mặt bàn, chân bàn,…Sau khi làm xong ta đem về branch master để lắp ráp lại.</p>
+
+<p>Trước khi đi vào giải thích chi tiết về các câu lệnh Git, tôi muốn trình bày một quy trình làm việc với Git trước. Dĩ nhiên là mỗi công ty có thể sẽ có một quy trình làm việc riêng. Và đây cũng chỉ là một quy trình trong số rất nhiều quy trình mà thôi.</p>
+
+<p align="center"><img src="https://ktuyends.github.io/post/03-tutorial/03-git/bai-03-gioi-thieu-gitflow/git17.bmp"></p>
+
+<p>Quay lại với quy trình làm việc với Git. Về cơ bản sẽ gồm một số bước như sau:</p>
+
+<ul>
+<li>Bước 1: Tạo một remote repository của project trên Github của project. Ta gọi remote repository này là upstream remote.</li>
+<li>Bước 2: Fork upstream remote về Github cá nhân. Ta gọi remote repository này là origin remote.</li>
+<li>Bước 3: Clone origin remote về local để làm việc. Ta gọi đây là local repository.</li>
+<li>Bước 4: Tạo branch ở local repository để phát triển các chức năng. Sau khi hoàn thành các tính năng ta tiến hành các bước tiếp theo.</li>
+<li>Bước 5: Pull code từ upstream remote về branch master ở local repository để cập nhật các thay đổi từ upstream.</li>
+<li>Bước 6: Merge code của branch master vào nhánh của các chức năng.</li>
+<li>Bước 7: Xử lý conflict – xung đột code nếu có.</li>
+<li>Bước 8: Push nhánh sau khi đã giải quyết conflict lên origin remote.</li>
+<li>Bước 9: Gửi Pull request đến upstream remote để merge code vào dự án.</li>
+<li>Bước 10: Sau khi check và test code ok. Tiến hành gán tag và release.</li>
+</ul>
+
+<p>Các bước này tạm thời các bạn có thể chưa hiểu, nhưng các bạn có thể đọc lại sau khi đã đọc các bài sau.</p>
+
+<h2 id="8-summary">8. Summary</h2>
+
+<p>Tổng hợp lại, trong bài này tôi đã giới thiệu cơ bản về Git gồm:</p>
+
+<ul>
+<li>Cài đặt Git và Github.</li>
+<li>Một số command line như <code>cd</code>, <code>mkdir</code>, <code>echo</code>,&hellip;</li>
+<li>Gitflow và một số khái niệm như remote, branch,&hellip;</li>
+</ul>
+
+<hr />
+
               
             </div>
           </div>

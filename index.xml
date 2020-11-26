@@ -121,7 +121,7 @@
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/2020/09/wsl2-and-r/</guid>
-      <description>Đang suy nghĩ!</description>
+      <description>Lập trình R trong môi trường Windows, đôi khi chúng ta sẽ gặp một số hạn chế mà không được Windows hỗ trợ. Ví dụ như với Parallel Computing thì forking không được hỗ trợ, hay đôi khi&amp;hellip;</description>
     </item>
     
     <item>

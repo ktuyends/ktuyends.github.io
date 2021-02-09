@@ -38,23 +38,83 @@
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/2021/01/ve-dep-binh-di-giua-doi-thuong/</loc>
-    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+    <loc>https://ktuyends.github.io/2021/02/ha-noi-nhung-ngay-cuoi-nam/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/2021/01/excel-and-google-sheet/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ktuyends.github.io/categories/knowledge/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/spreadsheet/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/data-analysis/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/2021/01/data-analysis/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ktuyends.github.io/tags/sql/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/2020/12/sql-for-data-analytics/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <loc>https://ktuyends.github.io/2021/01/sql-for-data-science/</loc>
+    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/programming-skills/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/2021/01/programming-skills-for-data-science/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/2021/01/foundations-of-data-science/</loc>
+    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/foundations-of-ds/</loc>
+    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/business-analytics/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/2021/01/business-analytics/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/financial-freedom/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/2021/01/financial-freedom/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,78 +123,8 @@
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/2020/12/a-letter-to-anh/</loc>
-    <lastmod>2020-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/r-for-data-science/</loc>
-    <lastmod>2020-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/12/r-for-data-science/</loc>
-    <lastmod>2020-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/predictive-analytics/</loc>
-    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/12/predictive-analytics/</loc>
-    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/excel/</loc>
-    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/12/excel-tutorial/</loc>
-    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/power-bi/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/12/power-bi-tutorial/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/shiny-and-reporting/</loc>
+    <loc>https://ktuyends.github.io/2020/12/ve-dep-binh-di-giua-doi-thuong/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/12/shiny-and-reporting/</loc>
-    <lastmod>2020-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/12/foundation-of-ds/</loc>
-    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/foundation-of-ds/</loc>
-    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/12/command-line/</loc>
-    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/comment-line/</loc>
-    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -153,17 +143,17 @@
   </url>
   
   <url>
+    <loc>https://ktuyends.github.io/2020/10/prj-01-how-to-start-a-blog/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ktuyends.github.io/tags/mini-project/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ktuyends.github.io/categories/mini-projects/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/2020/10/prj-01-how-to-start-a-blog/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -208,11 +198,6 @@
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/2020/08/my-bookmark/</loc>
-    <lastmod>2020-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ktuyends.github.io/2020/05/viet-cho-tuoi-26/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
@@ -250,11 +235,6 @@
   <url>
     <loc>https://ktuyends.github.io/2018/05/ha-noi-co-mot-ngay-nhu-the/</loc>
     <lastmod>2018-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/page/02-curriculum-vitae/</loc>
-    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>

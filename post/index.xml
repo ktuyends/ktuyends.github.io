@@ -17,21 +17,75 @@
     </item>
     
     <item>
-      <title>Vẻ đẹp bình dị giữa đời thường</title>
-      <link>https://ktuyends.github.io/2021/01/ve-dep-binh-di-giua-doi-thuong/</link>
-      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      <title>Hà Nội, những ngày cuối năm</title>
+      <link>https://ktuyends.github.io/2021/02/ha-noi-nhung-ngay-cuoi-nam/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/2021/01/ve-dep-binh-di-giua-doi-thuong/</guid>
-      <description>Giữa những xô bồ của cuộc sống thường ngày, có bao giờ bạn nhận ra rằng, đôi khi những điều nhỏ bé, giản dị quanh ta lại chính là những thứ đáng yêu nhất mà bấy lâu nay ta vẫn đang kiếm tìm hay không&amp;hellip;</description>
+      <guid>https://ktuyends.github.io/2021/02/ha-noi-nhung-ngay-cuoi-nam/</guid>
+      <description>Một năm qua, cuộc sống của các bạn vẫn ổn chứ, đã hoàn thành hết các mục tiêu đặt ra chưa. Còn mình thì&amp;hellip;vẫn chưa làm được gì hết, đành phải bỏ ngỏ lại cho năm 2021. Mọi chuyện rồi sẽ ổn thôi mà&amp;hellip;</description>
     </item>
     
     <item>
-      <title>SQL for Data Analytics</title>
-      <link>https://ktuyends.github.io/2020/12/sql-for-data-analytics/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Excel and Google Sheet</title>
+      <link>https://ktuyends.github.io/2021/01/excel-and-google-sheet/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/2020/12/sql-for-data-analytics/</guid>
-      <description>Khi còn học trong trường, các tập dữ liệu thường sẵn có ở định dạng mà chúng ta có thể trực tiếp phân tích. Tuy nhiên, trong môi trường business, dữ liệu thường được lưu trữ ở database&amp;hellip;</description>
+      <guid>https://ktuyends.github.io/2021/01/excel-and-google-sheet/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Intro to Data Analysis</title>
+      <link>https://ktuyends.github.io/2021/01/data-analysis/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2021/01/data-analysis/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>SQL for Data Science</title>
+      <link>https://ktuyends.github.io/2021/01/sql-for-data-science/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2021/01/sql-for-data-science/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Programming Skills for Data Science</title>
+      <link>https://ktuyends.github.io/2021/01/programming-skills-for-data-science/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2021/01/programming-skills-for-data-science/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Foundations of Data Science</title>
+      <link>https://ktuyends.github.io/2021/01/foundations-of-data-science/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2021/01/foundations-of-data-science/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Business Analytics</title>
+      <link>https://ktuyends.github.io/2021/01/business-analytics/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2021/01/business-analytics/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Financial Freedom</title>
+      <link>https://ktuyends.github.io/2021/01/financial-freedom/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2021/01/financial-freedom/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
     </item>
     
     <item>
@@ -44,75 +98,12 @@
     </item>
     
     <item>
-      <title>Lời thú tội của một chàng trai</title>
-      <link>https://ktuyends.github.io/2020/12/a-letter-to-anh/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/12/a-letter-to-anh/</guid>
-      <description>Tự hỏi chính mình.</description>
-    </item>
-    
-    <item>
-      <title>R for Data Science</title>
-      <link>https://ktuyends.github.io/2020/12/r-for-data-science/</link>
-      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/12/r-for-data-science/</guid>
-      <description>Khi nhắc đến Data science, hai ngôn ngữ chính thường được nhắc đến nhiều nhất là R và Python. Trong Blog này, Tôi chủ yếu sử dụng R và cũng sẽ không tranh luận&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Predictive Analytics</title>
-      <link>https://ktuyends.github.io/2020/12/predictive-analytics/</link>
-      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/12/predictive-analytics/</guid>
-      <description>Predictive Analytics, hiểu đơn giản là một phương pháp phân tích dữ liệu sử dụng các thuật toán từ data mining, statistics, modeling, machine learning và AI&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Excel Tutorial</title>
-      <link>https://ktuyends.github.io/2020/12/excel-tutorial/</link>
-      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/12/excel-tutorial/</guid>
-      <description>Excel thì quá là phổ biến rồi, nên tôi sẽ không giới thiệu dài dòng về nó nữa. Về cơ bản thì, với những tập dữ liệu nhỏ chúng ta có thể phân tích trực tiếp trên Excel mà không cần&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Power BI Tutorial</title>
-      <link>https://ktuyends.github.io/2020/12/power-bi-tutorial/</link>
-      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/12/power-bi-tutorial/</guid>
-      <description>Power BI là một giải pháp phân tích kinh doanh cho phép bạn trực quan hóa dữ liệu (visualization) và chia sẻ những hiểu biết sâu sắc (insights) trong tổ chức&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Shiny and Reporting</title>
-      <link>https://ktuyends.github.io/2020/12/shiny-and-reporting/</link>
+      <title>Vẻ đẹp bình dị giữa đời thường</title>
+      <link>https://ktuyends.github.io/2020/12/ve-dep-binh-di-giua-doi-thuong/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/2020/12/shiny-and-reporting/</guid>
-      <description>Shiny là một R Package, giúp tạo ra các ứng dụng web tương tác đơn giản từ R. Shiny thường được sử dụng để xây dựng các web apps, kết hợp với R Markdown và nhiều package khác&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Foundation of Data Science</title>
-      <link>https://ktuyends.github.io/2020/12/foundation-of-ds/</link>
-      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/12/foundation-of-ds/</guid>
-      <description>Phía sau nhiều mô hình, thuật toán phân tích dữ liệu là Toán. Toán ở đây có thể là đại số tuyến tính, tối ưu hóa, hoặc lý thuyết xác suất,&amp;hellip;Việc nắm bắt được các kiến thức này&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Command Line</title>
-      <link>https://ktuyends.github.io/2020/12/command-line/</link>
-      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/12/command-line/</guid>
-      <description>Ngày nay, để làm Data science có vô số ngôn ngữ lập trình và công nghệ thú vị để lựa chọn như SQL, R, Python, Hadoop,&amp;hellip;Tuy nhiên, Command Line nó mang một màu sắc của riêng mình&amp;hellip;</description>
+      <guid>https://ktuyends.github.io/2020/12/ve-dep-binh-di-giua-doi-thuong/</guid>
+      <description>Giữa những xô bồ của cuộc sống thường ngày, có bao giờ bạn nhận ra rằng, đôi khi những điều nhỏ bé, giản dị quanh ta lại chính là những thứ đáng yêu nhất mà bấy lâu nay ta vẫn đang kiếm tìm hay không&amp;hellip;</description>
     </item>
     
     <item>
@@ -125,12 +116,12 @@
     </item>
     
     <item>
-      <title>Prj 01: Bắt đầu bằng xây dựng 1 blog</title>
+      <title>Các bước xây dựng một blog</title>
       <link>https://ktuyends.github.io/2020/10/prj-01-how-to-start-a-blog/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/2020/10/prj-01-how-to-start-a-blog/</guid>
-      <description>Blog này, tôi tạo ra cũng khá là lâu, từ những năm 2016. Sau một thời gian dài vi vu qua một số nền tảng như blogspot, wordpress, jekyll,&amp;hellip;</description>
+      <description>Blog này, tôi tạo ra cũng khá là lâu, từ những năm 2016. Sau một thời gian dài vi vu qua một số nền tảng như blogspot, wordpress, jekyll,&amp;hellip;Rồi, có một ngày, tôi vô tình đọc được ở đâu đó&amp;hellip;</description>
     </item>
     
     <item>
@@ -166,15 +157,6 @@
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/2020/08/keywords/</guid>
-      <description>&lt;p style = &#34;font-family:Roboto; font-weight: 400&#34;&gt;</description>
-    </item>
-    
-    <item>
-      <title>My Bookmark</title>
-      <link>https://ktuyends.github.io/2020/08/my-bookmark/</link>
-      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/2020/08/my-bookmark/</guid>
       <description>&lt;p style = &#34;font-family:Roboto; font-weight: 400&#34;&gt;</description>
     </item>
     
@@ -350,7 +332,7 @@
     </item>
     
     <item>
-      <title>The Power of Attitude</title>
+      <title>Attitude is everything</title>
       <link>https://ktuyends.github.io/2014/08/attitude/</link>
       <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
       

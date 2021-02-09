@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Skills on Tuyen&#39;s Blog</title>
+    <link>https://ktuyends.github.io/tags/programming-skills/</link>
+    <description>Recent content in Programming Skills on Tuyen&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/tags/programming-skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming Skills for Data Science</title>
+      <link>https://ktuyends.github.io/2021/01/programming-skills-for-data-science/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2021/01/programming-skills-for-data-science/</guid>
+      <description>I&amp;rsquo;m writing&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -38,22 +38,52 @@
   </url>
   
   <url>
+    <loc>https://ktuyends.github.io/categories/archive/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/archive/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/categories/case-studies/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/page/01-projects/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/page/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/2021/02/keywords/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ktuyends.github.io/2021/02/ha-noi-nhung-ngay-cuoi-nam/</loc>
     <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/2021/01/excel-and-google-sheet/</loc>
+    <loc>https://ktuyends.github.io/2021/01/data-science-fundamentals/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/tags/ds-fundamentals/</loc>
     <lastmod>2021-01-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ktuyends.github.io/categories/knowledge/</loc>
-    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/spreadsheet/</loc>
     <lastmod>2021-01-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,22 +108,22 @@
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/tags/programming-skills/</loc>
+    <loc>https://ktuyends.github.io/tags/programming/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/2021/01/programming-skills-for-data-science/</loc>
+    <loc>https://ktuyends.github.io/2021/01/programming-for-data-science/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/2021/01/foundations-of-data-science/</loc>
+    <loc>https://ktuyends.github.io/tags/predictive-analytics/</loc>
     <lastmod>2021-01-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/tags/foundations-of-ds/</loc>
+    <loc>https://ktuyends.github.io/2021/01/predictive-analytics/</loc>
     <lastmod>2021-01-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,43 +158,23 @@
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/tags/blog/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/categories/blog/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ktuyends.github.io/2020/12/hom-nay-toi-lam-lai-tu-dau/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://ktuyends.github.io/tags/blog/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ktuyends.github.io/categories/blog/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ktuyends.github.io/2020/10/prj-01-how-to-start-a-blog/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/mini-project/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/categories/mini-projects/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/categories/tutorial/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/tutorial/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -180,16 +190,6 @@
   <url>
     <loc>https://ktuyends.github.io/2020/08/string-escape-unicode/</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/categories/archive/</loc>
-    <lastmod>2020-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/tags/archive/</loc>
-    <lastmod>2020-08-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -238,22 +238,7 @@
   </url>
   
   <url>
-    <loc>https://ktuyends.github.io/page/01-projects/</loc>
-    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ktuyends.github.io/2018/05/ngay-mai-roi-minh-cung-gia/</loc>
-    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/page/</loc>
-    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ktuyends.github.io/categories/projects/</loc>
     <lastmod>2018-05-12T00:00:00+00:00</lastmod>
   </url>
   

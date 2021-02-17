@@ -8,18 +8,18 @@
 <meta name="generator" content="Hugo 0.76.5 with theme Tranquilpeak 0.4.8-BETA">
 <meta name="author" content="Kiều Tuyến">
 <meta name="keywords" content="">
-<meta name="description" content="Tutorials">
+<meta name="description" content="Blog">
 
 
-<meta property="og:description" content="Tutorials">
+<meta property="og:description" content="Blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Windows Subsystem for Linux and R">
 <meta name="twitter:title" content="Windows Subsystem for Linux and R">
 <meta property="og:url" content="https://ktuyends.github.io/2020/09/wsl2-and-r/">
 <meta property="twitter:url" content="https://ktuyends.github.io/2020/09/wsl2-and-r/">
 <meta property="og:site_name" content="Tuyen&#39;s Blog">
-<meta property="og:description" content="Tutorials">
-<meta name="twitter:description" content="Tutorials">
+<meta property="og:description" content="Blog">
+<meta name="twitter:description" content="Blog">
 <meta property="og:locale" content="en-us">
 
   
@@ -31,12 +31,12 @@
   
   
     
-      <meta property="article:section" content="Tutorial">
+      <meta property="article:section" content="Blog">
     
   
   
     
-      <meta property="article:tag" content="Tutorial">
+      <meta property="article:tag" content="Blog">
     
   
 
@@ -115,12 +115,12 @@
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
-        <a href="https://ktuyends.github.io/">
+        <a href="https://ktuyends.github.io/#about">
           <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/915d82227fe59759b8ac876fd092b2b5?s=110" alt="Author&#39;s picture" />
         </a>
         <h4 class="sidebar-profile-name">Kiều Tuyến</h4>
         
-          <h5 class="sidebar-profile-bio">Sometimes I Write Crap</h5>
+          <h5 class="sidebar-profile-bio"><em>Writing is thinking, writing is doing…</em></h5>
         
       </div>
     
@@ -128,11 +128,11 @@
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://ktuyends.github.io/categories/blog/">
+      <a class="sidebar-button-link " href="https://ktuyends.github.io/">
     
-      <i class="sidebar-button-icon fa fa-lg fa-coffee"></i>
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
       
-      <span class="sidebar-button-desc">Blog</span>
+      <span class="sidebar-button-desc">Home</span>
     </a>
   </li>
 
@@ -152,21 +152,11 @@
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://ktuyends.github.io/categories/tutorial/">
+      <a class="sidebar-button-link " href="https://ktuyends.github.io/categories/blog/">
     
-      <i class="sidebar-button-icon fa fa-lg fa fa-book"></i>
+      <i class="sidebar-button-icon fa fa-lg fa-coffee"></i>
       
-      <span class="sidebar-button-desc">Tutorials</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://ktuyends.github.io/categories/knowledge/">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-reddit-alien"></i>
-      
-      <span class="sidebar-button-desc">Knowledge</span>
+      <span class="sidebar-button-desc">Blog</span>
     </a>
   </li>
 
@@ -177,6 +167,16 @@
       <i class="sidebar-button-icon fa fa-lg fa-bar-chart"></i>
       
       <span class="sidebar-button-desc">Projects</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://ktuyends.github.io/categories/knowledge/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa fa-book"></i>
+      
+      <span class="sidebar-button-desc">Knowledge</span>
     </a>
   </li>
 
@@ -248,7 +248,7 @@
   
     <span>in</span>
     
-      <a class="category-link" href="https://ktuyends.github.io/categories/tutorial">Tutorial</a>
+      <a class="category-link" href="https://ktuyends.github.io/categories/blog">Blog</a>
     
   
 
@@ -259,12 +259,14 @@
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
               
+<script src="index_files/header-attrs/header-attrs.js"></script>
 <link href="index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
 <script src="index_files/anchor-sections/anchor-sections.js"></script>
 
 <div id="TOC">
 <ul>
-<li><a href="#cài-đặt-wsl2">1. Cài đặt WSL2</a><ul>
+<li><a href="#cài-đặt-wsl2">1. Cài đặt WSL2</a>
+<ul>
 <li><a href="#windows-10-requirements">1.1. Windows 10 Requirements</a></li>
 <li><a href="#bật-tính-năng-wsl-và-virtual-machine-platform">1.2. Bật tính năng WSL và Virtual Machine Platform</a></li>
 <li><a href="#cài-đặt-và-chạy-ubuntu-và-windows-terminal">1.3. Cài đặt và chạy Ubuntu và Windows Terminal</a></li>
@@ -274,7 +276,8 @@
 <li><a href="#chạy-các-lệnh-linux-từ-windows">1.7. Chạy các lệnh Linux từ Windows</a></li>
 <li><a href="#chạy-các-ứng-dụng-windows-từ-linux">1.8. Chạy các ứng dụng Windows từ Linux</a></li>
 </ul></li>
-<li><a href="#cài-đặt-rstudio-server-trong-wsl2">2. Cài đặt RStudio Server trong WSL2</a><ul>
+<li><a href="#cài-đặt-rstudio-server-trong-wsl2">2. Cài đặt RStudio Server trong WSL2</a>
+<ul>
 <li><a href="#cài-đặt-r">2.1. Cài đặt R</a></li>
 <li><a href="#cài-đặt-rstudio-server">2.2. Cài đặt RStudio Server</a></li>
 </ul></li>
@@ -652,13 +655,13 @@ MathJax.Hub.Config({
     
     <h4 id="about-card-name">Kiều Tuyến</h4>
     
-      <div id="about-card-bio">Sometimes I Write Crap</div>
+      <div id="about-card-bio"><em>Writing is thinking, writing is doing…</em></div>
     
     
       <div id="about-card-job">
         <i class="fa fa-briefcase"></i>
         <br/>
-        Business Analytic
+        Data Analysis
       </div>
     
     

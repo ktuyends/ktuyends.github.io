@@ -17,6 +17,24 @@
     </item>
     
     <item>
+      <title>Archive</title>
+      <link>https://ktuyends.github.io/categories/archive/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Case Studies</title>
+      <link>https://ktuyends.github.io/categories/case-studies/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/categories/case-studies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Knowledge</title>
       <link>https://ktuyends.github.io/categories/knowledge/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
@@ -28,36 +46,9 @@
     <item>
       <title>Blog</title>
       <link>https://ktuyends.github.io/categories/blog/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mini Projects</title>
-      <link>https://ktuyends.github.io/categories/mini-projects/</link>
-      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/categories/mini-projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://ktuyends.github.io/categories/tutorial/</link>
-      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/categories/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Archive</title>
-      <link>https://ktuyends.github.io/categories/archive/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/categories/archive/</guid>
       <description></description>
     </item>
     
@@ -67,15 +58,6 @@
       <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ktuyends.github.io/categories/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://ktuyends.github.io/categories/projects/</link>
-      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/categories/projects/</guid>
       <description></description>
     </item>
     

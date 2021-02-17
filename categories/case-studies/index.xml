@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Case Studies on Tuyen&#39;s Blog</title>
+    <link>https://ktuyends.github.io/categories/case-studies/</link>
+    <description>Recent content in Case Studies on Tuyen&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/categories/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Studies</title>
+      <link>https://ktuyends.github.io/page/01-projects/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/page/01-projects/</guid>
+      <description>“For the things we have to learn before we can do them, we learn by doing them”  ARISTOTLE The Nicomachean Ethics   Với những thứ chúng ta cần phải học trước khi làm, cách đơn giản nhất là hãy thực hành. Tôi cũng không biết mình đặt tên cho Page này là &amp;ldquo;Mini Project&amp;rdquo; có đúng hay không nữa. Đây là nơi tôi áp dụng các kiến thức mình học được vào làm một thứ gì đó.</description>
+    </item>
+    
+  </channel>
+</rss>

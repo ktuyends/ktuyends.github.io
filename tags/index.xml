@@ -17,11 +17,20 @@
     </item>
     
     <item>
-      <title>Spreadsheet</title>
-      <link>https://ktuyends.github.io/tags/spreadsheet/</link>
+      <title>archive</title>
+      <link>https://ktuyends.github.io/tags/archive/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/tags/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DS Fundamentals</title>
+      <link>https://ktuyends.github.io/tags/ds-fundamentals/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/tags/spreadsheet/</guid>
+      <guid>https://ktuyends.github.io/tags/ds-fundamentals/</guid>
       <description></description>
     </item>
     
@@ -44,20 +53,20 @@
     </item>
     
     <item>
-      <title>Programming Skills</title>
-      <link>https://ktuyends.github.io/tags/programming-skills/</link>
+      <title>Programming</title>
+      <link>https://ktuyends.github.io/tags/programming/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/tags/programming-skills/</guid>
+      <guid>https://ktuyends.github.io/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Foundations of DS</title>
-      <link>https://ktuyends.github.io/tags/foundations-of-ds/</link>
+      <title>Predictive Analytics</title>
+      <link>https://ktuyends.github.io/tags/predictive-analytics/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/tags/foundations-of-ds/</guid>
+      <guid>https://ktuyends.github.io/tags/predictive-analytics/</guid>
       <description></description>
     </item>
     
@@ -82,36 +91,9 @@
     <item>
       <title>Blog</title>
       <link>https://ktuyends.github.io/tags/blog/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mini Project</title>
-      <link>https://ktuyends.github.io/tags/mini-project/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/tags/mini-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://ktuyends.github.io/tags/tutorial/</link>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>archive</title>
-      <link>https://ktuyends.github.io/tags/archive/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ktuyends.github.io/tags/archive/</guid>
+      <guid>https://ktuyends.github.io/tags/blog/</guid>
       <description></description>
     </item>
     

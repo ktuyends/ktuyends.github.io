@@ -6,32 +6,86 @@
     <description>Recent content in Blog on Tuyen&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ktuyends.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hôm nay, tôi làm lại từ đầu</title>
-      <link>https://ktuyends.github.io/2020/12/hom-nay-toi-lam-lai-tu-dau/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Các bước xây dựng một blog</title>
+      <link>https://ktuyends.github.io/2020/10/prj-01-how-to-start-a-blog/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/2020/12/hom-nay-toi-lam-lai-tu-dau/</guid>
-      <description>Tôi nhớ mình từng viết ở đâu đó một câu thế này: &amp;ldquo;Có lẽ, đến một thời điểm nào đó, nhiều thứ không còn phù hợp nữa&amp;rdquo;. Bởi vì, tôi biết thời gian của mình không còn nhiều nữa rồi&amp;hellip;</description>
+      <guid>https://ktuyends.github.io/2020/10/prj-01-how-to-start-a-blog/</guid>
+      <description>Blog này, tôi tạo ra cũng khá là lâu, từ những năm 2016. Sau một thời gian dài vi vu qua một số nền tảng như blogspot, wordpress, jekyll,&amp;hellip;Rồi, có một ngày, tôi vô tình đọc được ở đâu đó&amp;hellip;</description>
     </item>
     
     <item>
-      <title>Hạnh phúc giản đơn</title>
-      <link>https://ktuyends.github.io/2015/05/happy-simple/</link>
-      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      <title>Windows Subsystem for Linux and R</title>
+      <link>https://ktuyends.github.io/2020/09/wsl2-and-r/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/2015/05/happy-simple/</guid>
-      <description>&lt;p style = &#34;font-family:Roboto; font-weight: 400&#34;&gt;Bạn tôi hay bảo, quen biết nhau là duyên. Nhưng để gắn kết cuộc đời với nhau chúng ta còn cần một chữ phận. Tôi thì chưa đi qua nhiều năm tháng thăng trầm như bạn tôi,...</description>
+      <guid>https://ktuyends.github.io/2020/09/wsl2-and-r/</guid>
+      <description>Lập trình R trong môi trường Windows, đôi khi chúng ta sẽ gặp một số hạn chế mà không được Windows hỗ trợ. Ví dụ như với Parallel Computing thì forking không được hỗ trợ, hay đôi khi&amp;hellip;</description>
     </item>
     
     <item>
-      <title>Attitude is everything</title>
-      <link>https://ktuyends.github.io/2014/08/attitude/</link>
-      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
+      <title>Introduction to VSCode</title>
+      <link>https://ktuyends.github.io/2020/09/intro-to-vs-code/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ktuyends.github.io/2014/08/attitude/</guid>
-      <description>Sinh ra kiếp con người ai cũng phải làm việc, giàu hay nghèo cũng phải làm việc, thiếu tiền hay thừa tiền cũng phải làm việc vì đời sống cần có một mục đích mà tiền bạc chỉ là&amp;hellip;</description>
+      <guid>https://ktuyends.github.io/2020/09/intro-to-vs-code/</guid>
+      <description>Visual Studio Code (VSCode) là một trong những trình soạn thảo mã nguồn phổ biến nhất được sử dụng bởi các lập trình viên. Nó nhanh, nhẹ, hỗ trợ đa nền tảng&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Chuyển mã Unicode trong R</title>
+      <link>https://ktuyends.github.io/2020/08/string-escape-unicode/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2020/08/string-escape-unicode/</guid>
+      <description>Với những người lập trình R trên môi trường Windows, một trong những nhược điểm thường gặp là lỗi hiển thị Tiếng Việt. Có hai cách để giải quyết vấn đề này&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Git: Working with Remotes</title>
+      <link>https://ktuyends.github.io/2016/04/working-with-git-remotes/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2016/04/working-with-git-remotes/</guid>
+      <description>Git remote thường được sử dụng để chia sẻ source code giữa các thành viên trong cùng một dự án, về cơ bản quy trình làm việc với remote sẽ như sau&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Basic Git</title>
+      <link>https://ktuyends.github.io/2016/04/basic-git/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2016/04/basic-git/</guid>
+      <description>Với quy trình Gitflow đã trình bày trong bài trước, về cơ bản tôi sẽ chia quá trình học Git làm hai phần. Phần một, cách sử dụng Git để quản lý code ở Local. Phần hai&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Git</title>
+      <link>https://ktuyends.github.io/2016/04/intro-to-git/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2016/04/intro-to-git/</guid>
+      <description>Version control là một công cụ mạnh mẽ giúp chúng ta theo dõi, quản lý các phiên bản của code, phục hồi khi code bị lỗi,&amp;hellip;Trong bài này, tôi viết về Git, một công cụ version control phổ biến nhất.</description>
+    </item>
+    
+    <item>
+      <title>Install Software in Ubuntu</title>
+      <link>https://ktuyends.github.io/2016/03/install-software-in-ubuntu/</link>
+      <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2016/03/install-software-in-ubuntu/</guid>
+      <description>Trong post này, mình tổng hợp lại một số phần mềm cơ bản nên cài cho Ubuntu và một số phần mềm khác như MySQL, Rstudio, Anaconda để làm việc với Data&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Install Ubuntu Desktop</title>
+      <link>https://ktuyends.github.io/2016/03/install-ubuntu-desktop/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ktuyends.github.io/2016/03/install-ubuntu-desktop/</guid>
+      <description>Nếu một ngày nào đó, bạn phải làm một công việc mà không được hỗ trợ bởi Windows, bạn sẽ làm gì? Dĩ nhiên là tìm một hệ điều hành khác thay thế cho Windows rồi&amp;hellip;</description>
     </item>
     
   </channel>
